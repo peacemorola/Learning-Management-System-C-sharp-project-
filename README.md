@@ -9,14 +9,13 @@ Students can view all available courses or their personalized enrolled courses. 
 This project demonstrates practical use of classes, objects, static members, lists, and conditional logic, providing a clear and functional example of a basic LMS system.
 
 Full Flow
-![Project Diagram]([https://github.com/username/repository/raw/main/diagram.png](https://drive.google.com/file/d/1QnRWAFKoxflC1sJTjKROL5a3XQ7VGg7D/view?usp=drive_link
-))
+![Project Diagram](https://drive.google.com/file/d/1QnRWAFKoxflC1sJTjKROL5a3XQ7VGg7D/view?usp=drive_link)
 
 Login and registration flow
-![Project Diagram](https://drive.google.com/file/d/1OJYw4ZzAJhBO2-5YmO_ltGE96V17NbK4/view?usp=drive_link))
+![Project Diagram](https://drive.google.com/file/d/1OJYw4ZzAJhBO2-5YmO_ltGE96V17NbK4/view?usp=drive_link)
 
 Enroll Flow
-![Project Diagram](https://drive.google.com/file/d/1p6gMIC541QQEwjMZL38VaYLLHjilPZYA/view?usp=drive_link))
+![Project Diagram](https://drive.google.com/file/d/1p6gMIC541QQEwjMZL38VaYLLHjilPZYA/view?usp=drive_link)
 
 LMS (LEARNING MANAGEMENT SYSTEM)
 
