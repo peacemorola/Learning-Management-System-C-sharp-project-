@@ -1,18 +1,22 @@
 Project Description: Library / Learning Management System (Console-Based)
 
-This project is a console-based Learning Management System (LMS) developed using C# and .NET, designed to simulate basic academic course management operations. The system allows students to register, log in, view available courses, enroll in courses, and view their enrolled courses through a menu-driven interface.
+This is a console-based Learning Management System (LMS) developed in C# on the .NET platform. It allows students to register, log in, view courses, enroll in courses, and view their enrolled courses through a simple menu-driven interface.
 
-The application follows an object-oriented design approach, with separate classes representing core entities in the system: Courses, Students, and Enrollments. Data is stored in memory using generic lists, enabling efficient searching, validation, and management of records during program execution.
+The system uses an object-oriented design with classes for Courses, Students, and Enrollments, storing data in in-memory lists for easy searching and validation. Registration prevents duplicate usernames or IDs, and enrollment prevents duplicate course registrations.
 
-Upon launching the system, users are required to either log in with an existing username or register as a new student. The login process validates user credentials against stored student records, while the registration process ensures that duplicate usernames or student IDs are not allowed. Once authenticated, the user gains access to the main menu.
+Students can view all available courses or their personalized enrolled courses. The application maintains a single active user session using a static currentUser reference.
 
-The system provides functionality to display all available courses, each with a course ID, title, and description. Students can enroll in courses by selecting a valid course ID. The system prevents duplicate enrollments by checking existing enrollment records before registering a new one. Each enrollment is recorded with the student ID, course ID, and enrollment date.
+This project demonstrates practical use of classes, objects, static members, lists, and conditional logic, providing a clear and functional example of a basic LMS system.
 
-Additionally, students can view a personalized list of courses they are currently enrolled in. This is achieved by linking enrollment records with course data using matching IDs. The program maintains a single active user session during execution using a static currentUser reference.
+Full Flow
+![Project Diagram]([https://github.com/username/repository/raw/main/diagram.png](https://drive.google.com/file/d/1QnRWAFKoxflC1sJTjKROL5a3XQ7VGg7D/view?usp=drive_link
+))
 
-Overall, this project demonstrates practical use of classes, objects, static methods, lists, conditional logic, and basic data validation in C#. It serves as a foundational example of how learning or library management systems operate at a basic level, focusing on clarity, functionality, and structured program flow.
+Login and registration flow
+![Project Diagram](https://drive.google.com/file/d/1OJYw4ZzAJhBO2-5YmO_ltGE96V17NbK4/view?usp=drive_link))
 
-
+Enroll Flow
+![Project Diagram](https://drive.google.com/file/d/1p6gMIC541QQEwjMZL38VaYLLHjilPZYA/view?usp=drive_link))
 
 LMS (LEARNING MANAGEMENT SYSTEM)
 
